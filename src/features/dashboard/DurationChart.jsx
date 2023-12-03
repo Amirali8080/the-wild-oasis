@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import styled from "styled-components";
 import Heading from "../../ui/Heading";
 import {
@@ -26,12 +25,6 @@ const ChartBox = styled.div`
 
   & .recharts-pie-label-text {
     font-weight: 600;
-  }
-  & div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 200px;
   }
 `;
 
@@ -156,7 +149,6 @@ function DurationChart({ confirmedStays }) {
   return (
     <ChartBox>
       <Heading as="h2">Stay duration summary</Heading>
-      {data.length === 0 && <div>No data</div>}
       <ResponsiveContainer width="100%" height={240}>
         <PieChart>
           <Pie
