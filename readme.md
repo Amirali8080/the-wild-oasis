@@ -1,6 +1,6 @@
 # The Wild Oasis project 🏠
 
-Built with React Query and Supabase ⚛️
+Built with React Query , React router and Supabase ⚛️
 
 ## Live preview 📽️
 it's not responsive 😣
